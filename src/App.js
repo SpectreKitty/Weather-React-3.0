@@ -9,9 +9,17 @@ export default function App() {
         <Weather />
         <footer>
           Code by Astry Brana, open sourced on{" "}
-          <a href="https://github.com/SpectreKitty/Weather-React-3.0">GitHub</a>{" "}
+          <a
+            href="https://github.com/SpectreKitty/Weather-React-3.0"
+            target="_blank"
+          >
+            GitHub
+          </a>{" "}
           and hosted on{" "}
-          <a href="https://weatherreact3.netlify.app/"> Netlify</a>
+          <a href="https://weatherreact3.netlify.app/" target="_blank">
+            {" "}
+            Netlify
+          </a>
         </footer>
       </div>
     </div>
