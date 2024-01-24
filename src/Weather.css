@@ -9,6 +9,9 @@
 .Weather form {
   margin-bottom: 20px;
 }
+.Weather .btn {
+  background-color: purple;
+}
 .Weather h2 {
   font-size: 24px;
   font-weight: 100;
@@ -26,12 +29,11 @@
   line-height: 19px;
   list-style: none;
 }
-.weather img {
+.weather canvas {
   margin-right: 10px;
-  height: 64px;
-  width: 64px;
+  margin-top: 5px;
+  display: inline-block;
 }
-
 .Weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
